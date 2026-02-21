@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+*.keras
+*.pt
+*.bin
+.env
+.DS_Store
+node_modules/
+data/
+models/
