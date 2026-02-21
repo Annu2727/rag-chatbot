@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* { font-family: 'Inter', sans-serif; }
+
+.hero {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(48, 43, 99, 0.4);
+}
+.hero h1 { font-size: 2.2rem; margin: 0; font-weight: 700; }
+.hero p  { font-size: 1rem; opacity: 0.85; margin-top: 0.5rem; }
+
+.badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    margin: 3px;
+    color: white;
+}
+
+.step-card {
+    background: #f8f9ff;
+    border: 1px solid #e0e4ff;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    height: 100%;
+}
+.step-card h3 { color: #302b63; margin-bottom: 0.4rem; }
+
+.user-msg {
+    background: #2d2b55;
+    border-left: 4px solid #4f46e5;
+    padding: 0.9rem 1.2rem;
+    border-radius: 0 10px 10px 0;
+    margin: 0.6rem 0;
+    color: #ffffff;
+}
+
+.bot-msg {
+    background: #1e1e2e;
+    border-left: 4px solid #16a34a;
+    padding: 0.9rem 1.2rem;
+    border-radius: 0 10px 10px 0;
+    margin: 0.6rem 0;
+    color: #ffffff;
+}
+
+.source-chip {
+    display: inline-block;
+    background: #4f46e5;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    margin: 2px;
+}
+
+.stat-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.arch-box {
+    background: #0f0c29;
+    color: #a5f3fc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    white-space: pre;
+}
+
+.stButton > button {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+.stButton > button:hover {
+    opacity: 0.9 !important;
+    transform: translateY(-1px);
+}
