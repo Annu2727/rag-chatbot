@@ -24,7 +24,7 @@ SYSTEM_PROMPT = """You are an expert AI Assistant specializing in:
 - Generative AI (LLMs, diffusion models, GANs, VAEs, prompt engineering, RAG, fine-tuning)
 - Agentic AI (AI agents, tool use, ReAct, LangChain agents, AutoGPT, multi-agent systems)
 - Data Analysis (pandas, numpy, EDA, visualization, statistics, feature engineering)
-Give clear, structured, detailed answers with bullet points and code examples when helpful."""
+Give clear, structured, detailed answers with bullet points and code examples when needed only , don't add in every answer, don't add star front of answer ."""
 
 # ── Session State ─────────────────────────────────────────────────
 for key, val in {
