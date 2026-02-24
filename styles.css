@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
 
 #MainMenu { visibility: hidden; }
-footer { visibility: hidden; }
-header { visibility: hidden; }
+footer    { visibility: hidden; }
+header    { visibility: hidden; }
 .stDeployButton { display: none; }
 
 .stApp { background-color: #212121; color: #ececec; }
@@ -12,19 +11,7 @@ header { visibility: hidden; }
 .block-container {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
-    max-width: 780px !important;
-}
-
-/* Sidebar */
-[data-testid="stSidebar"] > div:first-child { background-color: #171717; }
-[data-testid="stSidebar"] label,
-[data-testid="stSidebar"] p,
-[data-testid="stSidebar"] span,
-[data-testid="stSidebar"] div { color: #ececec !important; }
-
-.history-section-label {
-    font-size: 0.75rem; color: #8e8ea0;
-    padding: 0.5rem 0.8rem 0.2rem; font-weight: 500;
+    max-width: 760px !important;
 }
 
 /* Mode badge */
@@ -32,7 +19,7 @@ header { visibility: hidden; }
     display: inline-block;
     background: #19c37d22; color: #19c37d;
     border: 1px solid #19c37d44;
-    padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; margin-bottom: 1rem;
+    padding: 3px 14px; border-radius: 20px; font-size: 0.78rem;
 }
 .pdf-badge { background: #7c3aed22; color: #a78bfa; border: 1px solid #7c3aed44; }
 
@@ -40,15 +27,15 @@ header { visibility: hidden; }
 .welcome-wrap {
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-    height: 50vh; text-align: center;
+    height: 55vh; text-align: center;
 }
 .welcome-title { font-size: 2rem; font-weight: 600; color: #ececec; margin-bottom: 0.5rem; }
-.welcome-sub   { color: #8e8ea0; font-size: 1rem; }
+.welcome-sub   { color: #8e8ea0; font-size: 1rem; line-height: 1.8; }
 
 /* Messages */
-.user-msg { display: flex; gap: 12px; padding: 1.2rem 0; border-bottom: 1px solid #2f2f2f; }
-.bot-msg  { display: flex; gap: 12px; padding: 1.2rem 0; border-bottom: 1px solid #2f2f2f; }
-.msg-content { flex: 1; color: #ececec; font-size: 0.95rem; line-height: 1.75; padding-top: 4px; }
+.user-msg { display: flex; gap: 14px; padding: 1.2rem 0; border-bottom: 1px solid #2f2f2f; }
+.bot-msg  { display: flex; gap: 14px; padding: 1.2rem 0; border-bottom: 1px solid #2f2f2f; }
+.msg-content { flex: 1; color: #ececec; font-size: 0.95rem; line-height: 1.8; padding-top: 4px; }
 
 .avatar-user {
     width: 32px; height: 32px; min-width: 32px;
@@ -68,7 +55,7 @@ header { visibility: hidden; }
     border-radius: 12px; font-size: 0.72rem; margin: 2px;
 }
 
-/* Input box */
+/* Input text box */
 .stTextInput > div > div > input {
     background: #2f2f2f !important;
     color: #ececec !important;
@@ -82,35 +69,50 @@ header { visibility: hidden; }
     box-shadow: none !important;
 }
 
-/* Send button */
+/* Send button inside form */
 .stFormSubmitButton > button {
     background: #19c37d !important;
     color: #000 !important; border: none !important;
     border-radius: 8px !important; font-weight: 700 !important;
-    height: 44px !important; width: 100% !important;
 }
 .stFormSubmitButton > button:hover { background: #15a36a !important; }
 
-/* Sidebar buttons */
+/* All other buttons (📎 clear etc) */
 .stButton > button {
-    background: transparent !important; color: #ececec !important;
-    border: 1px solid #3f3f3f !important; border-radius: 8px !important;
-    font-weight: 500 !important; text-align: left !important;
+    background: #2f2f2f !important;
+    color: #ececec !important;
+    border: 1px solid #3f3f3f !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
 }
-.stButton > button:hover { background: #2f2f2f !important; }
+.stButton > button:hover { background: #3a3a3a !important; }
 
-/* Form */
+/* Form border off */
 [data-testid="stForm"] { border: none !important; background: transparent !important; }
 
 /* Expander */
 [data-testid="stExpander"] {
     background: #2f2f2f !important;
-    border: 1px solid #3f3f3f !important; border-radius: 8px !important;
+    border: 1px solid #3f3f3f !important;
+    border-radius: 8px !important;
 }
 
 /* File uploader */
 [data-testid="stFileUploader"] {
-    background: #2f2f2f !important; border-radius: 8px !important;
+    background: #2f2f2f !important;
+    border: 1px dashed #3f3f3f !important;
+    border-radius: 12px !important;
+    padding: 0.5rem !important;
 }
 
 hr { border-color: #2f2f2f !important; }
+
+/* History panel */
+.history-panel {
+    background: #2f2f2f;
+    border: 1px solid #3f3f3f;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.history-panel h4 { color: #ececec; margin: 0 0 0.8rem 0; font-size: 0.95rem; }
