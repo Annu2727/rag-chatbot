@@ -2,7 +2,7 @@
 
 A full-stack AI Assistant that combines a **general AI chatbot** (ML, DL, GenAI, Agentic AI) with a **PDF Analyzer** powered by Retrieval-Augmented Generation (RAG).
 
-🔗 **Live Demo:** [Click here to try the app](https://your-app-url.streamlit.app)
+🔗 **Live Demo:** [Click here to try the app](https://local-rag-chatbot.streamlit.app)
 
 ---
 
