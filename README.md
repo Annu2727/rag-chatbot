@@ -10,8 +10,6 @@ A full-stack AI Assistant that combines a **general AI chatbot** (ML, DL, GenAI,
 
 ![App Workflow Diagram](app_workflow_diagram.png)
 
----
-
 ## ✨ Features
 
 - 💬 **General AI Chat** — Ask anything about ML, DL, Generative AI, Agentic AI, Data Analysis
